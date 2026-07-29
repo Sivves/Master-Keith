@@ -1,0 +1,58 @@
+<head>
+ <style> 
+  div {
+   width: 10;
+   height: 10;
+   border-collapse: separate;
+   border-spacing: 2%;
+   background-color: red;
+   transition: width 2s, height 4s;
+   color: transparent;
+   display: table;
+  }
+  div.tr{
+    display: table-row;
+    background-color: rgb(253, 120, 120);
+    color:rgb(102, 27, 27);
+    pointer-events: none;
+    border: 2px solid red;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+  }
+  div.td{
+    display: table-cell;
+    background-color: rgb(253, 120, 120);
+    color:rgb(102, 27, 27);
+    pointer-events: none;
+    border: 2px solid red;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+  }
+  div.th{
+    display: table-cell;
+    background-color: red;
+    color:rgb(102, 27, 27);
+    pointer-events: none;
+    border: 5px solid red;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+  }
+
+  div:hover {
+    width: 40%; height: 20%;
+    color:rgb(102, 27, 27);
+  }
+ </style>
+</head>
+
+<body>
+  <div>
+    <div class="tr"><div class="th">Leche Flan Ingredients</div></div>
+    <div class="tr"><div class="td">12 egg yolks</div></div>
+    <div class="tr"><div class="td">1 can evaporated milk carnation brand</div></div>
+    <div class="tr"><div class="td">1 can condensed milk</div></div>
+    <div class="tr"><div class="td">1 teaspoon vanilla extract</div></div>
+    <div class="tr"><div class="td">3/4 cup granulated sugar</div></div>
+    <div class="tr"><div class="td">2 tablespoon water</div></div>
+  </div>
+</body>
