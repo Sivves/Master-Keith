@@ -1,0 +1,39 @@
+
+:root{
+  --bg:#fafafa;
+  --card:#ffffff;
+  --accent:#2b7a78;
+  --muted:#666;
+  --max-width:800px;
+}
+
+/* Box model */
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  background:var(--bg);
+  color:#222;
+  padding:20px;
+}
+
+.site-header{max-width:var(--max-width);margin:0 auto 12px;position:relative}
+.site-header h1{font-size:1.4rem;margin-bottom:6px}
+.subtitle{color:var(--muted);font-size:0.95rem}
+.accent{position:absolute;right:8px;top:8px;width:10px;height:10px;background:var(--accent);border-radius:50%}
+
+.container{max-width:var(--max-width);margin:14px auto}
+.card{background:var(--card);padding:14px;border-radius:6px;border:1px solid #e8e8e8;margin-bottom:12px}
+
+/* Simple hover transform + smooth transition */
+.card{transition:transform 220ms ease, box-shadow 220ms}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 18px rgba(0,0,0,0.06)}
+
+.editable{color:var(--muted)}
+
+.site-footer{max-width:var(--max-width);margin:18px auto;color:var(--muted);font-size:0.9rem;text-align:center}
+
+@media (max-width:480px){
+  body{padding:12px}
+  .site-header h1{font-size:1.1rem}
+}

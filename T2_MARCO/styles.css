@@ -1,0 +1,52 @@
+/* 
+
+*/
+div {
+   width: 100%;
+   height: 100%;
+   display: table;
+   border-color:black;
+   border-width: 10px;
+  }
+.th{
+    display: table-cell;
+    align-items: center;
+  }
+.td{
+    display: table-cell;
+  }
+.tr{
+    display: table-row;
+  }
+#header1{
+    color: white;
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 10%;
+}
+#header{
+    color: white;
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: right;
+
+}
+#headerhover{
+    transition: 0.5s;
+    color: white;
+    padding-top: 10%;
+}
+#headerhover:hover{
+    transition: 0.5s;
+    color: transparent;
+    background-color: green;
+}
+
+a{
+    color:white;
+    text-decoration: underline;
+}
+a:visited{
+    color:rgb(138, 138, 138);
+    font-style: italic;
+}
