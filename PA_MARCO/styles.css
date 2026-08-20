@@ -17,6 +17,7 @@ body {
     padding: 12px 20px;
     z-index: 10;
     text-align: center;
+    justify-content: space-between;
 }
 
 #header h1 {
