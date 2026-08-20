@@ -25,10 +25,11 @@ body {
     display: inline-block;
     font-weight: bold;
 }
-span {
+#header h2 {
     margin: 0;
     font-size: 15px;
-    display: inline-block;
+    color: #fff;
+    display: block;
 }
 
 #header nav a {
